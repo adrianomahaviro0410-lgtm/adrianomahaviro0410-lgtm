@@ -58,9 +58,10 @@ Cyber Security student at Bina Nusantara University (BINUS) specializing in Andr
 
 | Project / Machine | Domain / Category | Severity / Focus | Report Link |
 | :--- | :--- | :--- | :--- |
-| **Android Security Assessment** | Mobile Audit (SAST/DAST) | Critical (BOLA, Cleartext API) | [View Cap WriteUp](./WU%20Cap.pdf) |
-## Contact & Links
+| **HTB: Cap** | Linux / Network Pentesting | Enumeration & PrivEsc | [View PDF Report](./WU%20Cap.pdf) |
+| **SmartStudy App** | Web & Cloud (PKM-KC) | Priority Algorithm & Supabase | [View Repository](https://github.com/USERNAME/smartstudy) |
 
+## Contact & Links
 * **LinkedIn:** https://www.linkedin.com/in/adriano-mahaviro-316279323/
 * **GitHub:** https://github.com/adrianomahaviro0410-lgtm
 * **Primary Email:** adrianomahaviro0410@gmail.com
