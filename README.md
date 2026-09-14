@@ -2,7 +2,7 @@
 
 ### Cybersecurity Specialist | Mobile Pentester | CNSP Certified
 
-Computer Science student at Bina Nusantara University (BINUS) specializing in Android mobile application security analysis, web API penetration testing, and network vulnerability assessment. Experienced in static (SAST) and dynamic (DAST) testing methodologies, APK reverse engineering, and aligning security findings with industry standards such as OWASP MASVS and CVSS v3.1.
+Cyber Security student at Bina Nusantara University (BINUS) specializing in Android mobile application security analysis, web API penetration testing, and network vulnerability assessment. Experienced in static (SAST) and dynamic (DAST) testing methodologies, APK reverse engineering, and aligning security findings with industry standards such as OWASP MASVS and CVSS v3.1.
 
 ---
 
