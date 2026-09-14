@@ -54,6 +54,11 @@ Cyber Security student at Bina Nusantara University (BINUS) specializing in Andr
 
 ---
 
+## Security Audit Reports & Write-Ups Index
+
+| Project / Machine | Domain / Category | Severity / Focus | Report Link |
+| :--- | :--- | :--- | :--- |
+| **Android Security Assessment** | Mobile Audit (SAST/DAST) | Critical (BOLA, Cleartext API) | [View PDF Report](./WU%20Cap.pdf) |
 ## Contact & Links
 
 * **LinkedIn:** https://www.linkedin.com/in/adriano-mahaviro-316279323/
