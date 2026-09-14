@@ -8,7 +8,7 @@ Cyber Security student at Bina Nusantara University (BINUS) specializing in Andr
 
 ## Professional Certifications
 
-* **Certified Network Security Practitioner (CNSP)** - The SecOps Group (Merit Pass)
+* **Certified Network Security Practitioner (CNSP)** — The SecOps Group (Merit Pass) • [View Certificate PDF](./AdrianoMahaviro-CertifiedNetworkSecurityPractitioner(CNSP).pdf)
 
 ---
 
