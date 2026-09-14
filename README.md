@@ -59,7 +59,7 @@ Cyber Security student at Bina Nusantara University (BINUS) specializing in Andr
 | Project / Machine | Domain / Category | Severity / Focus | Report Link |
 | :--- | :--- | :--- | :--- |
 | **HTB: Cap** | Linux / Network Pentesting | Enumeration & PrivEsc | [View PDF Report](./WU%20Cap.pdf) |
-| **SmartStudy App** | Web & Cloud (PKM-KC) | Priority Algorithm & Supabase | [View Repository](https://github.com/USERNAME/smartstudy) |
+| **SmartStudy App** | Web & Cloud (PKM-KC) | Priority Algorithm & Supabase | [View Repository](https://github.com/adrianomahaviro0410-lgtm/SoftEng) |
 
 ## Contact & Links
 * **LinkedIn:** https://www.linkedin.com/in/adriano-mahaviro-316279323/
