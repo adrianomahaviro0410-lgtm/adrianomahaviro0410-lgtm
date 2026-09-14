@@ -47,6 +47,13 @@ Computer Science student at Bina Nusantara University (BINUS) specializing in An
 
 ---
 
+### Public Sector Android Security Assessment
+* Performed vulnerability testing on a large-scale Indonesian public sector mobile application.
+* Identified API endpoint misconfigurations and client-side data leakage risks using Burp Suite and JADX-GUI.
+* Followed ethical security research standards without publishing actionable exploits or sensitive documentation.
+
+---
+
 ## Contact & Links
 
 * **LinkedIn:** https://www.linkedin.com/in/adriano-mahaviro-316279323/
