@@ -42,7 +42,7 @@ Cyber Security student at Bina Nusantara University (BINUS) specializing in Andr
 ## Education
 
 **Bina Nusantara University (BINUS)**
-* Student of Computer Science (Cyber Security)
+* Student of Computer Science (Cyber Security) GPA: 3.61
 * Learning Focus: SIEM TOOLS
 
 ---
