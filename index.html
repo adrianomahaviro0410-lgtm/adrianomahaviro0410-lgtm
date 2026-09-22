@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adriano Mahaviro - Portfolio & Security Engineer</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        dark: '#0f172a',
+                        card: '#1e293b',
+                        accent: '#10b981'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans antialiased leading-relaxed">
+
+    <!-- Hero Header Section -->
+    <header class="bg-gradient-to-b from-slate-900 to-slate-950 border-b border-slate-800 py-16 px-6">
+        <div class="max-w-4xl mx-auto">
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-white tracking-tight mb-3">
+                Adriano Mahaviro
+            </h1>
+            <p class="text-xl font-medium text-emerald-400 mb-6">
+                Cybersecurity Specialist | Mobile Pentester | CNSP Certified
+            </p>
+            <p class="text-slate-300 text-base sm:text-lg leading-relaxed max-w-3xl">
+                Cyber Security student at Bina Nusantara University (BINUS) specializing in Android mobile application security analysis, web API penetration testing, and network vulnerability assessment. Experienced in static (SAST) and dynamic (DAST) testing methodologies, APK reverse engineering, and aligning security findings with industry standards such as OWASP MASVS and CVSS v3.1.
+            </p>
+        </div>
+    </header>
+
+    <main class="max-w-4xl mx-auto px-6 py-10 space-y-12">
+
+        <!-- Professional Certifications -->
+        <section>
+            <h2 class="text-2xl font-bold text-white border-b border-slate-800 pb-3 mb-6 flex items-center gap-2">
+                <span class="text-emerald-400">📜</span> Professional Certifications
+            </h2>
+            <div class="bg-slate-900 border border-slate-800 p-5 rounded-xl hover:border-emerald-500/50 transition-all">
+                <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+                    <h3 class="text-lg font-semibold text-white">
+                        Certified Network Security Practitioner (CNSP)
+                    </h3>
+                    <span class="text-xs bg-emerald-950 text-emerald-300 border border-emerald-800 px-3 py-1 rounded-full font-medium w-fit">
+                        Merit Pass
+                    </span>
+                </div>
+                <p class="text-sm text-slate-400 mt-1">The SecOps Group</p>
+                <div class="mt-4">
+                    <a href="./AdrianoMahaviro-CertifiedNetworkSecurityPractitioner(CNSP).pdf" target="_blank" class="text-emerald-400 hover:underline text-sm font-medium inline-flex items-center gap-1">
+                        📄 View Certificate PDF →
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Skills -->
+        <section>
+            <h2 class="text-2xl font-bold text-white border-b border-slate-800 pb-3 mb-6 flex items-center gap-2">
+                <span class="text-emerald-400">⚙️</span> Technical Skills
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="bg-slate-900 border border-slate-800 p-5 rounded-xl">
+                    <h3 class="text-sm font-semibold text-emerald-400 uppercase tracking-wider mb-3">Security & Methodologies</h3>
+                    <ul class="space-y-2 text-slate-300 text-sm">
+                        <li>• <strong class="text-white">Frameworks & Standards:</strong> OWASP MASVS, CVSS v3.1, SAST, DAST, DevSecOps Pipelines</li>
+                        <li>• <strong class="text-white">Tools:</strong> Burp Suite, JADX-GUI, Frida, Apktool, Zipalign</li>
+                        <li>• <strong class="text-white">Analysis:</strong> API Mapping, Root & SSL Pinning Bypass</li>
+                    </ul>
+                </div>
+                <div class="bg-slate-900 border border-slate-800 p-5 rounded-xl">
+                    <h3 class="text-sm font-semibold text-emerald-400 uppercase tracking-wider mb-3">Programming & Systems</h3>
+                    <ul class="space-y-2 text-slate-300 text-sm">
+                        <li>• <strong class="text-white">Languages:</strong> Python, C, SQL (MariaDB, MySQL)</li>
+                        <li>• <strong class="text-white">Operating Systems:</strong> Kali Linux, Ubuntu</li>
+                        <li>• <strong class="text-white">Problem Solving:</strong> Competitive Programming, Algorithm Optimization</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Security Projects -->
+        <section>
+            <h2 class="text-2xl font-bold text-white border-b border-slate-800 pb-3 mb-6 flex items-center gap-2">
+                <span class="text-emerald-400">🛡️</span> Featured Security Projects
+            </h2>
+            <div class="space-y-6">
+                <!-- Project 1 -->
+                <div class="bg-slate-900 border border-slate-800 p-6 rounded-xl hover:border-slate-700 transition-all">
+                    <h3 class="text-xl font-semibold text-white mb-2">Android Mobile Application Security Assessment</h3>
+                    <p class="text-slate-300 text-sm mb-4">
+                        Conducting rigorous security audits on mobile applications through static and dynamic analysis frameworks.
+                    </p>
+                    <ul class="space-y-2 text-slate-300 text-sm">
+                        <li class="flex items-start gap-2">
+                            <span class="text-emerald-400">▸</span> Conducted SAST and DAST on large-scale Android applications using JADX-GUI and Burp Suite.
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <span class="text-emerald-400">▸</span> Identified API authorization vulnerabilities (BOLA/IDOR), cleartext traffic misconfigurations, and unverified App Link intent filters.
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <span class="text-emerald-400">▸</span> Authored comprehensive security audit reports featuring CVSS v3.1 scoring frameworks and client/server remediation strategies.
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="bg-slate-900 border border-slate-800 p-6 rounded-xl hover:border-slate-700 transition-all">
+                    <h3 class="text-xl font-semibold text-white mb-2">HackTheBox (HTB) Laboratory Penetration Testing</h3>
+                    <p class="text-slate-300 text-sm mb-4">
+                        Hands-on offensive security laboratories simulating real-world enterprise network vulnerabilities.
+                    </p>
+                    <ul class="space-y-2 text-slate-300 text-sm">
+                        <li class="flex items-start gap-2">
+                            <span class="text-emerald-400">▸</span> Performed systematic network and web application enumeration to obtain initial access (User Shell).
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <span class="text-emerald-400">▸</span> Analyzed internal scripts, misconfigured system binaries, and cron jobs for privilege escalation to Root access.
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="bg-slate-900 border border-slate-800 p-6 rounded-xl hover:border-slate-700 transition-all">
+                    <h3 class="text-xl font-semibold text-white mb-2">Public Sector Android Security Assessment</h3>
+                    <p class="text-slate-300 text-sm mb-4">
+                        Ethical security research focused on government and public infrastructure mobile applications.
+                    </p>
+                    <ul class="space-y-2 text-slate-300 text-sm">
+                        <li class="flex items-start gap-2">
+                            <span class="text-emerald-400">▸</span> Performed vulnerability testing on a large-scale Indonesian public sector mobile application.
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <span class="text-emerald-400">▸</span> Identified API endpoint misconfigurations and client-side data leakage risks using Burp Suite and JADX-GUI.
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <span class="text-emerald-400">▸</span> Followed ethical security research standards without publishing actionable exploits or sensitive documentation.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Competitive Programming & ICPC Writeups -->
+        <section>
+            <h2 class="text-2xl font-bold text-white border-b border-slate-800 pb-3 mb-6 flex items-center gap-2">
+                <span class="text-emerald-400">🏆</span> Competitive Programming & ICPC
+            </h2>
+            <div class="bg-slate-900 border border-slate-800 p-6 rounded-xl">
+                <p class="text-slate-300 text-sm mb-4">
+                    Pengalaman aktif mengikuti kompetisi pemrograman tingkat lanjut seperti <strong>ICPC (International Collegiate Programming Contest)</strong>. Mengasah kemampuan *logical thinking*, optimasi algoritma, struktur data kompleks, serta penulisan kode yang bersih dan efisien untuk mendukung kebutuhan *secure coding*.
+                </p>
+                <div class="flex flex-wrap gap-2 mt-3">
+                    <span class="text-xs bg-slate-800 text-emerald-300 px-3 py-1 rounded-full border border-slate-700">Algorithm Optimization</span>
+                    <span class="text-xs bg-slate-800 text-emerald-300 px-3 py-1 rounded-full border border-slate-700">Data Structures</span>
+                    <span class="text-xs bg-slate-800 text-emerald-300 px-3 py-1 rounded-full border border-slate-700">Problem Solving</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Security Audit Reports & Write-Ups Index -->
+        <section>
+            <h2 class="text-2xl font-bold text-white border-b border-slate-800 pb-3 mb-6 flex items-center gap-2">
+                <span class="text-emerald-400">📂</span> Security Reports & Write-Ups Index
+            </h2>
+            <div class="overflow-x-auto">
+                <table class="w-full text-left border-collapse">
+                    <thead>
+                        <tr class="border-b border-slate-800 text-slate-400 text-xs uppercase tracking-wider">
+                            <th class="py-3 px-4">Project / Machine</th>
+                            <th class="py-3 px-4">Domain / Category</th>
+                            <th class="py-3 px-4">Severity / Focus</th>
+                            <th class="py-3 px-4">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-slate-800/60 text-sm text-slate-300">
+                        <tr class="hover:bg-slate-900/50">
+                            <td class="py-3 px-4 font-medium text-white">HTB: Cap</td>
+                            <td class="py-3 px-4">Linux / Network Pentesting</td>
+                            <td class="py-3 px-4">Enumeration & PrivEsc</td>
+                            <td class="py-3 px-4">
+                                <a href="./WU%20Cap.pdf" target="_blank" class="text-emerald-400 hover:underline">View PDF Report</a>
+                            </td>
+                        </tr>
+                        <tr class="hover:bg-slate-900/50">
+                            <td class="py-3 px-4 font-medium text-white">SmartStudy App</td>
+                            <td class="py-3 px-4">Web & Cloud (PKM-KC)</td>
+                            <td class="py-3 px-4">Priority Algorithm & Supabase</td>
+                            <td class="py-3 px-4">
+                                <a href="https://github.com/adrianomahaviro0410-lgtm/SoftEng" target="_blank" class="text-emerald-400 hover:underline">View Repository</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Education -->
+        <section>
+            <h2 class="text-2xl font-bold text-white border-b border-slate-800 pb-3 mb-6 flex items-center gap-2">
+                <span class="text-emerald-400">🎓</span> Education
+            </h2>
+            <div class="bg-slate-900 border border-slate-800 p-5 rounded-xl">
+                <h3 class="text-lg font-semibold text-white">Bina Nusantara University (BINUS)</h3>
+                <p class="text-emerald-400 text-sm font-medium mt-1">Student of Computer Science (Cyber Security)</p>
+                <p class="text-slate-400 text-xs mt-2">Specialization Focus: SIEM Tools, Network Defense, Application Vulnerability Assessment</p>
+            </div>
+        </section>
+
+        <!-- Contact & Links -->
+        <section class="bg-slate-900 border border-slate-800 p-6 rounded-xl">
+            <h2 class="text-xl font-bold text-white mb-4 flex items-center gap-2">
+                <span class="text-emerald-400">📫</span> Contact & Professional Links
+            </h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm">
+                <a href="https://www.linkedin.com/in/adriano-mahaviro-316279323/" target="_blank" class="text-slate-300 hover:text-emerald-400 flex items-center gap-2">
+                    🔗 <strong>LinkedIn:</strong> adriano-mahaviro
+                </a>
+                <a href="https://github.com/adrianomahaviro0410-lgtm" target="_blank" class="text-slate-300 hover:text-emerald-400 flex items-center gap-2">
+                    💻 <strong>GitHub:</strong> adrianomahaviro0410-lgtm
+                </a>
+                <p class="text-slate-300 flex items-center gap-2">
+                    ✉️ <strong>Email 1:</strong> adrianomahaviro0410@gmail.com
+                </p>
+                <p class="text-slate-300 flex items-center gap-2">
+                    ✉️ <strong>Email 2:</strong> adriano.mahaviro@binus.ac.id
+                </p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="border-t border-slate-800 text-center py-6 text-slate-500 text-xs">
+        &copy; 2026 Adriano Mahaviro. Built for professional security engineering portfolio.
+    </footer>
+
+</body>
+</html>
